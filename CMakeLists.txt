@@ -29,6 +29,8 @@ else()
   include(${CPM_DIR}/CPM.cmake)
 endif()
 
+CPM_InitModule(${CPM_MODULE_NAME})
+
 #project (helloworld)
 
 #include_directories("hello-world")
