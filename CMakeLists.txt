@@ -36,8 +36,8 @@ CPM_InitModule(${CPM_MODULE_NAME})
 #include_directories("hello-world")
 
 file(GLOB SOURCES 
-    "hello-world/src/*.c"
-    "hello-world/*.h"
+    "hello_world/src/*.c"
+    "hello_world/*.h"
     )
 
 add_library(${CPM_LIB_TARGET_NAME} ${SOURCES})
